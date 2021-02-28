@@ -1,12 +1,60 @@
 body {
-    background-color: rgb(255, 255, 255);
+  background-color: #a1d2e2;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; }
-   
-.attribution a { 
-    color: hsl(228, 45%, 44%);
- }
+.attribution a {
+  color: hsl(229, 63%, 5%);
+}
+
+/* BUTTON BACKGROUND */
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #e55d87 0%,
+    #5fc3e4 51%,
+    #e55d87 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 15px #eee;
+  border-radius: 10px;
+  display: block;
+}
+/* BUTTON HOVER */
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+/* CARD HOVER */
+.card:hover {
+  transform: scale(1.1);
+  background-color: #e089a4;
+}
+
+.list-group-item:hover {
+  background-color: #e089a4;
+}
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header,
+.toggle {
+  text-align: center;
+}
