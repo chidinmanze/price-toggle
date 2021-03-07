@@ -1,5 +1,9 @@
 body {
-  background-color: #a1d2e2;
+  background-image: url("https://cdn4.vectorstock.com/i/1000x1000/59/53/abstract-light-pink-and-blue-background-smooth-vector-23905953.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .attribution {
@@ -44,6 +48,10 @@ body {
   background-color: #e089a4;
 }
 
+.list-card:hover {
+  background-color: #e089a4;
+}
+
 .list-group-item:hover {
   background-color: #e089a4;
 }
@@ -82,9 +90,9 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #2196F3;
-  -webkit-transition: .4s;
-  transition: .4s;
+  background-color: #2196f3;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -95,16 +103,16 @@ body {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {
